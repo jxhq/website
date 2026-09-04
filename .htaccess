@@ -1,7 +1,7 @@
 DirectoryIndex index.php index.html
 ErrorDocument 404 /404.php
 RewriteEngine On
-RewriteRule ^tools/(whois|password-generator|uuid-generator|json-formatter|qr-generator|jwt-decoder|diff-checker|color-converter)/?$ /tools/tool.php?tool=$1 [L,QSA]
+RewriteRule ^tools/(whois|password-generator|uuid-generator|json-formatter|qr-generator|jwt-decoder|diff-checker|color-converter|works-on-my-machine)/?$ /tools/tool.php?tool=$1 [L,QSA]
 
 <IfModule mod_headers.c>
   Header always set X-Content-Type-Options "nosniff"
