@@ -1,0 +1,17 @@
+DirectoryIndex index.php index.html
+ErrorDocument 404 /404.php
+RewriteEngine On
+RewriteRule ^tools/(whois|password-generator|uuid-generator|json-formatter|qr-generator|jwt-decoder|diff-checker|color-converter)/?$ /tools/tool.php?tool=$1 [L,QSA]
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 7 days"
+  ExpiresByType application/javascript "access plus 7 days"
+  ExpiresByType image/svg+xml "access plus 30 days"
+</IfModule>

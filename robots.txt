@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jxhq.net/sitemap.xml

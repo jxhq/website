@@ -1,0 +1,18 @@
+/* TEAM */
+Builder: Justin Pooters
+Location: The Netherlands
+Website: https://justinp.dev
+GitHub: https://github.com/JustinPooters
+
+/* SITE */
+Name: JXHQ
+Languages: Dutch / English
+Stack: PHP, HTML, Tailwind CSS v4, JavaScript
+Infrastructure: CapRover
+
+/* THANKS */
+Coffee, curiosity, and everyone who still views source.
+
+/* LAST WORDS */
+TODO: become less curious.
+Status: rejected.
