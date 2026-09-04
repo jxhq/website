@@ -20,3 +20,7 @@ All tools except the public RDAP lookup run entirely in the visitor's browser. T
 The repository is ready for CapRover. Its `captain-definition` builds the included PHP 8.3 Apache image and exposes port 80.
 
 No secrets or CapRover credentials belong in this repository.
+
+## JXHQ Lab convention
+
+Public repositories from the configured GitHub accounts are intended to appear automatically on `/lab/`. Repository work should follow the checklist in [`AGENTS.md`](./AGENTS.md), including accurate descriptions, homepage links, topics, and the optional `hide-from-lab` exclusion topic.
